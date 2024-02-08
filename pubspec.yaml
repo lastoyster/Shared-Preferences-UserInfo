@@ -1,11 +1,14 @@
 name: flutter_shared_preferences
 description: A new Flutter application.
 
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  
 dependencies:
   flutter:
     sdk: flutter
 
-  shared_preferences: "^0.4.1"
+  shared_preferences: ^2.0.0 # Use the latest stable version
   cupertino_icons: ^0.1.0
 
 dev_dependencies:
@@ -13,8 +16,6 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-
   uses-material-design: true
-
   assets:
     - assets/images/flutter_icon.png
